@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>ejercicio 1.2</title>
+
+</head>
+
+<body>
+    <!-- NavBar Section -->
+    <section id="navbar-section">
+        <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="..\Recursos projecte sprint 1.2\Imagenes\logo-bookmark.svg" height="20"
+                        alt="Logo Bookmark" loading="lazy" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <!--Estos tres elementos se usan para mejorar la accesibilidad -->
+                    <img src="..\Recursos projecte sprint 1.2\Imagenes\icon-hamburger.svg" class="icon-logo"
+                        alt="menu icon">
+                </button>
+                <div class="collapse navbar-collapse " id="navbarToggler">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-features" href="#">FEATURES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-pricing" href="#">PRICING</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-contact" href="#">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-custom" id="login" href="#" role="button">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- Hero Section -->
+    <section id="hero-section">
+        <div class="container" id="container1">
+            <div class="row">
+                <div class="col" id="column1">
+                    <div class="info1">
+                        <div>
+                            <h1>A Simple Bookmark Manager</h1>
+                        </div>
+                        <div>
+                            <p>A clean and simple interface to organize your favorite websites. Open a new browser
+                                tab
+                                and see your sites load instantly. Try it for free.</p>
+                        </div>
+                        <div class="buttons">
+                            <div class="button">
+                                <button button type="button" class="btn btn-primary blue-button" id="getit-chrome">Get
+                                    it on
+                                    Chrome</button>
+                            </div>
+                            <div class="button">
+                                <button button type="button" class="btn btn-primary" id="getit-firefox">Get it on
+                                    Firefox</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col" id="column2">
+                    <div class="imagen-forma">
+                        <div class="shape1-container">
+                            <div class="shape1"></div>
+                        </div>
+                        <div class="illustration-hero">
+                            <img src="..\Recursos projecte sprint 1.2\Imagenes\illustration-hero.svg"
+                                alt="Logo Bookmark" loading="lazy" id="illustration-hero" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features">
+        <div class="container">
+            <div class="features">
+                <h2>Features</h2>
+                <p>Our aims is to make it quick and easy for you to access your favourite websites. Your bookmarks
+                    sync
+                    between your devices so you can access them on the go.</p>
+            </div>
+
+            <div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                    <li class="nav-item nav-item-hero" role="presentation">
+                        <div class="li-box-hero li-box-hero-first">
+                            <button class="nav-link nav-link-hero active" id="bookmarking-tab" data-bs-toggle="tab"
+                                data-bs-target="#bookmarking-tab-pane" type="button" role="tab"
+                                aria-controls="bookmarking-tab-pane" aria-selected="true">Simple
+                                Bookmarking</button>
+                        </div>
+                    </li>
+
+                    <li class="nav-item nav-item-hero" role="presentation">
+                        <div class="li-box-hero">
+                            <button class="nav-link nav-link-hero" id="speedy-tab" data-bs-toggle="tab"
+                                data-bs-target="#speedy-tab-pane" type="button" role="tab"
+                                aria-controls="speedy-tab-pane" aria-selected="false">Speedy Searching</button>
+                        </div>
+                    </li>
+
+                    <li class="nav-item nav-item-hero" role="presentation">
+                        <div class="li-box-hero">
+                            <button class="nav-link nav-link-hero" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Easy sharing</button>
+                        </div>
+                    </li>
+
+                </ul>
+
+                <div class="tab-content" id="bookmarking-content">
+                    <div class="tab-pane fade show active" id="bookmarking-tab-pane" role="tabpanel"
+                        aria-labelledby="bookmarking-tab" tabindex="0">
+
+                        <!-- Contenido de la pestaña Simple Bookmarking -->
+
+                        <div class="container" id="container-features-tab">
+                            <div class="row features-row">
+                                <div class="col column-left-shapes">
+                                    <div class="imagen-forma-izquierda">
+                                        <div class="shape2-container">
+                                            <div class="shape2"></div>
+                                        </div>
+                                        <div class="illustration-features">
+                                            <img src="..\Recursos projecte sprint 1.2\Imagenes\illustration-features-tab-1.svg"
+                                                alt="imagen_bookmark" loading="lazy" id="illustration-bookmarking"
+                                                class="features-images" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col features-text">
+                                    <h3>Bookmark in one click</h3>
+                                    <div class="features-text-only">
+                                        <p>Organize your bookmarks however you like. Ours simple drag-and-drop
+                                            interface
+                                            gives you
+                                            complete control over how you manage your favorite sites.</p>
+                                    </div>
+                                    <button button type="button" class="btn btn-primary blue-button features-button"
+                                        id="more-info1">
+                                        More Info</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="speedy-tab-pane" role="tabpanel" aria-labelledby="speedy-tab"
+                        tabindex="0">
+                        <!-- Contenido de la pestaña Speedy Searching -->
+
+                        <div class="container" id="container-features-tab">
+                            <div class="row features-row">
+                                <div class="col column-left-shapes">
+                                    <div class="imagen-forma-izquierda">
+                                        <div class="shape2-container">
+                                            <div class="shape2"></div>
+                                        </div>
+                                        <div class="illustration-features">
+                                            <img src="..\Recursos projecte sprint 1.2\Imagenes\illustration-features-tab-2.svg"
+                                                alt="imagen-intelligent-search" loading="lazy"
+                                                id="illustration-intelligent-search" class="features-images" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col features-text">
+                                    <h3>Intelligent Search</h3>
+                                    <div class="features-text-only">
+                                        <p>Our powerful search feature will help you find saved sites i no time
+                                            at all. No need t trawl through all of your bookmarks.</p>
+                                    </div>
+                                    <button button type="button" class="btn btn-primary blue-button features-button"
+                                        id="more-info2">
+                                        More Info</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <!-- Contenido de la pestaña Easy Sharing -->
+
+                        <div class="container" id="container-features-tab">
+                            <div class="row features-row">
+                                <div class="col column-left-shapes">
+                                    <div class="imagen-forma-izquierda">
+                                        <div class="shape2-container">
+                                            <div class="shape2"></div>
+                                        </div>
+                                        <div class="illustration-features">
+                                            <img src="..\Recursos projecte sprint 1.2\Imagenes\illustration-features-tab-3.svg"
+                                                alt="imagen-intelligent-search" loading="lazy"
+                                                id="illustration-intelligent-search" class="features-images" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col features-text">
+                                    <h3>Share your bookmarks</h3>
+                                    <div class="features-text-only">
+                                        <p>Easily share your bookmarks and collections with others. Create a
+                                            shareable link that you can send at the click of a button.</p>
+                                    </div>
+                                    <button button type="button" class="btn btn-primary blue-button features-button"
+                                        id="more-info2">
+                                        More Info</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download-section">
+
+        <div class="download-text">
+            <h3>Download the extension</h3>
+            <p>We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to
+                prioritize.
+            </p>
+        </div>
+        <div class="container cards-container">
+            <div class="row">
+                <div class="browser-columns">
+                    <div class="column column-chrome download-column">
+
+                        <div class="card download-cards" id="chrome-card">
+                            <img src="..\Recursos projecte sprint 1.2\Imagenes\logo-chrome.svg"
+                                class="card-img-top download-logos" alt="logo Chrome">
+                            <div class="card-body">
+                                <h5 class="card-title">Add to Chrome</h5>
+                                <p class="card-text">Minimum version 62</p>
+                            </div>
+                            <div class="card-body card-separation">
+                                <button button="" type="button" class="btn btn-primary blue-button download-button"
+                                    id="download-chrome">
+                                    Add & Install Extension</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="column column-firefox download-column">
+
+                        <div class="card download-cards" id="firefox-card">
+                            <img src="..\Recursos projecte sprint 1.2\Imagenes\logo-firefox.svg"
+                                class="card-img-top download-logos" alt="logo Firefox">
+                            <div class="card-body">
+                                <h5 class="card-title">Add to Firefox</h5>
+                                <p class="card-text">Minimum version 55</p>
+                            </div>
+                            <div class="card-body card-separation">
+                                <button button="" type="button" class="btn btn-primary blue-button download-button"
+                                    id="download-Firefox">
+                                    Add & Install Extension</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="column column-Opera download-column">
+
+                        <div class="card download-cards" id="opera-card">
+                            <img src="..\Recursos projecte sprint 1.2\Imagenes\logo-opera.svg"
+                                class="card-img-top download-logos" alt="logo Opera">
+                            <div class="card-body">
+                                <h5 class="card-title">Add to Opera</h5>
+                                <p class="card-text">Minimum version 46</p>
+                            </div>
+                            <div class="card-body card-separation">
+                                <button button="" type="button" class="btn btn-primary blue-button download-button"
+                                    id="download-Opera">
+                                    Add & Install Extension</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Q & A Section -->
+    <section class="faqs-section">
+
+        <div class="faqs-text">
+            <h3>Frequently Asked Questions</h3>
+            <p>Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email
+                us.
+            </p>
+        </div>
+        <div class="faqs-accordion">
+
+            <div class="accordion accordion-flush" id="accordion-bookmark">
+                <div class="accordion-item" id="accordion-itemOne">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed accordion-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            What is Bookmark?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut id sed reprehenderit quaerat
+                            quasi nulla alias repellat ab accusantium, et voluptas culpa, nihil nemo placeat, assumenda
+                            eum ducimus molestiae nisi. </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed accordion-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            How can I request a new browser?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut id sed reprehenderit quaerat
+                            quasi nulla alias repellat ab accusantium, et voluptas culpa, nihil nemo placeat, assumenda
+                            eum ducimus molestiae nisi. </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed accordion-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Is there a mobile app?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut id sed reprehenderit quaerat
+                            quasi nulla alias repellat ab accusantium, et voluptas culpa, nihil nemo placeat, assumenda
+                            eum ducimus molestiae nisi. </div>
+                    </div>
+                </div>
+                <div class="accordion-item" id="accordion-itemFour">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed accordion-title" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            what about other Chromium browsers?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut id sed reprehenderit quaerat
+                            quasi nulla alias repellat ab accusantium, et voluptas culpa, nihil nemo placeat, assumenda
+                            eum ducimus molestiae nisi. </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="faqs-button">
+            <button button="" type="button" class="btn btn-primary blue-button" id="faqs-button">
+                More Info</button>
+        </div>
+
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="newsletter-background">
+            <div class="newsletter-padding">
+                <div class="newsletter-info">
+                    <p class="newsletter-text">35.000 ALREADY JOINED</p>
+                    <h3 class="newsletter-title">Stay up-to-date with what we're doing</h3>
+                </div>
+                <div class="newsletter-signin">
+
+                    <form class="g-3 needs-validation" novalidate>
+                        <div class="submit-email">
+                            <div class="email-input position-relative">
+                                <input type="email" class="form-control" id="emailId"
+                                    placeholder="Enter your email address" required>
+                                <div class="invalid-tooltip submit-email-error">Whoops, make sure it's an email</div>
+                            </div>
+                            <div class="button-contact-us">
+                                <button type="submit" class="btn btn-custom" id="button-contact-us">Contact Us</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer-section">
+        <div class="footer-background">
+            <div class="footer-elements">
+                <div class="footer-logo">
+                    <div class="bookmark-icon">
+                        <img src="..\Recursos projecte sprint 1.2\Imagenes\bookmark-ribbon-7795.svg"
+                            alt="icono bookmark" id="bookmark-icon">
+                    </div>
+                    <div class="bookmark-name">BOOKMARK</div>
+
+                    <div class="footer-sections">
+                        <div class="footer-features footer-shortcuts">
+                            <h6>FEATURES</h6>
+                        </div>
+                        <div class="footer-pricing footer-shortcuts">
+                            <h6>PRICING</h6>
+                        </div>
+                        <div class="footer-contact footer-shortcuts">
+                            <h6>CONTACT</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-social-media">
+                    <div class="facebook-icon socialMedia-icons">
+                        <img src="..\Recursos projecte sprint 1.2\Imagenes\icon-facebook.svg" alt="facebook icon">
+                    </div>
+                    <div class="twitter-icon socialMedia-icons">
+                        <img src="..\Recursos projecte sprint 1.2\Imagenes\icon-twitter.svg" alt="twitter icon">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+
+    <script src="../../../bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+
+</body>
+
+</html>
